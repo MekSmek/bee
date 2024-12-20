@@ -1,0 +1,125 @@
+.block {
+    margin-bottom: 3rem;
+}
+
+.sitename {
+    margin: 2;
+    margin-bottom: 10px;
+    font: "Times New Roman";
+}
+
+nav {
+    margin: 0px;
+    display: flex;
+    width: 100%;  
+    background-color: orange;
+    justify-content: space-between; 
+}
+
+.container {
+    display: flex;
+   padding: 20px;
+   align-items: center;
+ 
+}
+
+main {
+    width: 660px;
+    padding: 20px;
+}
+
+body {
+    font: "Times New Roman";
+}
+
+.left {
+    width: 270px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav a {
+margin: 30px;
+padding: 20px;
+color: white;
+text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    color: rgb(255, 136, 0);
+    text-decoration: underline;
+}
+
+main p {
+    margin: 10px 0;
+    text-align: justify;
+    font: 15px Arial;
+}
+.sobaka {
+    color: gray;
+}
+
+
+ul {
+    list-style-image: url(image/li.gif);
+}
+
+button {
+    background-color: white;
+    border: 1px solid rgb(170, 170, 170);
+    float: right;
+    padding: 5px;
+    color: orange;
+}
+
+img {
+    width: 1050px;
+}
+
+
+.clop {
+    color: orange;
+}
+
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+main ul {
+    margin-bottom: 20px;
+}
+
+main button {
+    margin-top: 20px;
+}
+main p {
+    margin-bottom: 15px;
+}
+
+
+main h1 + button {
+    margin-top: 40px; 
+}
+
+.totipla {
+    height: 1px;
+    margin: 30px 0;
+    background-color: #ccc;
+  
+}
+ .rock {
+    margin: 20px;
+ }
+
+.ftotipla {
+    height: 1px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
